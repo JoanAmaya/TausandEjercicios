@@ -214,9 +214,9 @@ class Canvas(FigureCanvas):
         fig, self.ax = plt.subplots(figsize=(10, 4))
         fig.subplots_adjust(bottom=0.2)
         super(Canvas, self).__init__(fig)
-        self.xs = np.zeros(380)+1 
-        self.xsa=np.zeros(380)
-        self.ys = np.zeros(380)
+        self.xs = np.zeros(650)+1 
+        self.xsa=np.zeros(650)
+        self.ys = np.zeros(650)
         self.ax.grid(True)
         self.valor=valor
         self.valor_actual=0
